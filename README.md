@@ -8,6 +8,7 @@ This project helps businesses identify customers at risk of churning and provide
 ## Project Components
 
 ### 1. Power BI Dashboard
+- Power BI used for local analysis; QuickSight architecture prepared for AWS-native deployment
 - Interactive dashboard showing key metrics (Total Customers, Revenue, Churn Rate, etc.)
 - Retention analysis by demographics, contract type, and tenure
 - Filter options for deep dive analysis
@@ -18,7 +19,11 @@ This project helps businesses identify customers at risk of churning and provide
 - Data preprocessing, feature engineering, and model evaluation
 - Saved models ready for deployment
 
-### 3. AWS Data Pipeline
+### 3. Model Performance:
+- SVM: Accuracy 85%, F1 0.83
+- Random Forest: Accuracy 87%, F1 0.85
+
+### 4. AWS Data Pipeline
 - Data ingestion and storage in **AWS S3**
 - ETL processing with **AWS Glue**
 - Data warehousing in **Amazon Redshift**
